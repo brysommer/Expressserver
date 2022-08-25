@@ -1,0 +1,53 @@
+
+
+.wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: 18px;
+    font-size: 18;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrap .pad {
+    padding: 15px;
+}
+.wrap .pad.first {
+    display: block;
+    width: 200;
+    height: 300;
+    background-image: url(https://petcare.com.ua/wp-content/uploads/2022/02/koshka-zolotaya-shinshilla-harakteristika-vybor-i-usloviya-soderzhaniya-11.jpg);
+    background-size:cover;
+}
+
+.wrap .pad.second div {
+    background-size:cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ed/BillyHJay.jpg)
+    
+
+}
+.wrap .pad.second a {
+    display: block;
+    width: 200;
+    height: 300;
+}
+.wrap .pad.third {
+    position: relative;
+}
+.wrap .pad.third .text {
+    position: absolute;
+    text-decoration: underline;
+}
+.wrap .pad.fourth {
+    position: relative;
+}
+
+.wrap .pad.fourth:before {
+    content: "Британська короткошерста";
+    position: absolute;
+    top: 16px;
+    color:blue;
+    text-decoration: underline;
+}
