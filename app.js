@@ -20,7 +20,7 @@ let html = ejs.render('<%= people.join(", "); %>', {people: people});
 server.use(express.static('public'));
 
 server.get('/file', (req, res) => {
-    res.sendFile('/1.jpg');
+    res.sendFile('G:/express/public/1.jpg');
 });
 
 server.get('/', (req, res) => {
